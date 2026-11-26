@@ -27,7 +27,7 @@ jobs:
           python-version: '3.12'
       - run: node worker/test.mjs
       - run: for f in app.js online.js quality.js sw.js; do node --check "$f"; done
-      - run: pip install playwright==1.56.0
+      - run: pip install playwright==1.65.2
       - if: runner.os == 'Linux'
         run: python -m playwright install --with-deps ${{ matrix.browser }}
       - if: runner.os == 'macOS'
