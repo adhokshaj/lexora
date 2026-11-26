@@ -1,0 +1,1 @@
+{"name":"lexora-tutor","main":"index.mjs","compatibility_date":"2026-11-01","vars":{"MODEL":"gemini-3.1-flash-lite","ORIGIN":"https://adhokshaj.github.io"},"ratelimits":[{"name":"LIMIT","namespace_id":"1031","simple":{"limit":5,"period":60}}]}
