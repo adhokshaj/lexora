@@ -16,7 +16,7 @@ jobs:
           - browser: chromium
             runner: ubuntu-24.04
           - browser: webkit
-            runner: macos-14
+            runner: macos-15-intel
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
